@@ -9,11 +9,10 @@ h1 {
 
 ul {
 background-color: #cc9999;
-padding: 0;
+padding: 10px;
 height: 5px;
 width: 150px;
 border: 10px solid #336666;
-margin: 0;
+margin: 20px;
 text-align: center center;
-color: black
 }
