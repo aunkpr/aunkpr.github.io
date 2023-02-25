@@ -1,6 +1,8 @@
 body {
     font-family: sans-serif, arial;
-    font-size: 100%
+    font-size: 100%;
+    text-align: center;
+    margin: 50px;
 }
 
 h1 {
@@ -8,11 +10,11 @@ h1 {
 }
 
 ul {
-text-align: center;
 background-color: #cc9999;
 padding: 10px;
 height: 5px;
 width: 150px;
 border: 10px solid #336666;
 margin: 20px;
+text-align: center;
 }
