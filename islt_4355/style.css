@@ -7,11 +7,11 @@ h1 {
 
 ul {
 background-color: #cc9999;
-padding: 10px;
+padding: 0;
 height: 5px;
 width: 150px;
 border: 10px solid #336666;
-margin: 20px;
+margin: 0;
 text-align: center center;
 color: black
 }
