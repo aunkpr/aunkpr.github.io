@@ -2,7 +2,7 @@ body {
     font-family: sans-serif, arial;
     font-size: 100%;
     text-align: center;
-    margin: 50px;
+    margin: 100px;
 }
 
 h1 {
@@ -13,6 +13,7 @@ p {text-align: center;
 }
     
 ul {
+text-align: center;
 background-color: #cc9999;
 padding: 10px;
 height: 5px;
