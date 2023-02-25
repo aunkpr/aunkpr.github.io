@@ -1,4 +1,6 @@
-body {font:arial
+body {
+    font-family: sans-serif, arial;
+    font-size: 100%
 }
 
 h1 {
