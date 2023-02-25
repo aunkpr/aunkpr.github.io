@@ -2,18 +2,19 @@ body {
     font-family: sans-serif, arial;
     font-size: 100%;
     text-align: center center;
-    margin: 100px;
+    margin: 1rem;
 }
 
 h1 {
     color: #336666;
 }
-    
-ul {
-background-color: #cc9999;
-padding: 20px;
-height: 5px;
-width: 150px;
-border: 10px solid #336666;
-margin: 1rem auto;
+
+div.resume {
+    width: 200px;
+    border: 10px solid #336666;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: #cc9999;
+    color: #336666;
 }
