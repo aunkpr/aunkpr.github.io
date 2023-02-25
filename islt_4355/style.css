@@ -1,7 +1,8 @@
 h1 {
     color: #336666;
 }
-main {
+
+main, p3 {
 background-color: #336666;
 padding: 10px;
 height: 100px;
