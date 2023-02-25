@@ -1,19 +1,17 @@
-body {
-    font-family: sans-serif, arial;
-    font-size: 100%;
-    text-align: center center;
-    margin: 100px;
+body {font:arial
 }
 
 h1 {
-    color: #336666;
+    color: #87a295;
 }
-    
+
 ul {
 background-color: #cc9999;
-padding: 20px;
+padding: 0;
 height: 5px;
 width: 150px;
-border: 10px solid #336666;
-margin: 1rem auto;
+border: 10px solid #87a295;
+margin: 0;
+text-align: center center;
+color: black
 }
