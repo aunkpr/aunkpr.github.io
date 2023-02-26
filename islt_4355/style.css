@@ -7,7 +7,7 @@ header {
     padding: 10px;
 }
 
-main, footer {
+main {
     display: block;
     font-family: sans-serif, arial;
     font-size: 100%;
@@ -44,4 +44,22 @@ blockquote{
     margin:10px;
     padding: 10px;
     line-height: 2;
+}
+
+footer {
+    position:fixed;
+    font-family: sans-serif, arial;
+    background-color: #87a295;
+    color: white;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    text-align:end;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+footer a {
+    color: white;
 }
