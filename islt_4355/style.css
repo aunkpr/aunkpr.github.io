@@ -17,6 +17,28 @@ main {
     border: 20px;
 }
 
+div.projectLinks ul li {
+    display: flex;
+    background-color: rgb(231, 229, 229);
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+div.projectLinks ul li a {
+    display: flex;
+    background-color: rgb(231, 229, 229);
+    color: black;
+    text-decoration: none;
+    text-align: center center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+    justify-content: space-around;
+}
+
 p{
     line-height: 2;
 }
