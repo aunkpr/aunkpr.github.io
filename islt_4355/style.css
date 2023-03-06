@@ -1,10 +1,13 @@
 
 
 header {
+    display: block;
     font-family: sans-serif, arial;
     font-size: 100%;
-    text-align:center;
+    text-align:center center;
+    margin: 10px;
     padding: 10px;
+    border: 20px;
 }
 
 main {
@@ -44,15 +47,16 @@ p{
 }
 
 h1 {
-    color: #336666;
+    color: #87a295;
 }
 
 div.resume {
     width: 200px;
-    border: 10px solid #336666;
-    padding: 20px;
+    border: 10px solid #87a295;
+    padding: 10px;
     margin: auto;
     text-align: center;
+    border-radius: 40px;
     background-color: #cc9999;
     color: #336666;
 }
@@ -61,6 +65,35 @@ div.resume a{
     color: white;
     text-decoration: none;
 }
+
+div.resume :hover {
+    opacity: 75%;
+    color: #336666;
+}
+
+
+div.reflections {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px 0;
+}
+div.reflections section:first-of-type p:first-of-type::first-letter {
+    font-size: 2em;
+    color: #cc9999;
+    text-align: left;
+    text-indent: 1px;
+}
+div.reflections p {
+    text-indent: 2em;
+}
+
+div.reflections .no-indent {
+    text-indent: 0;
+}
+
+
+
+
 
 blockquote{
     margin:10px;
@@ -79,7 +112,7 @@ footer {
     width:100%;
     text-align:end;
     justify-content: space-around;
-    padding: 15px;
+    padding: 5px;
 }
 
 footer a {

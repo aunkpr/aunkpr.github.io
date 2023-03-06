@@ -9,6 +9,14 @@ nav{
   font-family: 'arial', sans-serif;
   background-color: #87a295;
   justify-content: flex-end;
+  box-shadow: 0 0 10px #749284;
+}
+
+.logo {  /**Left Logo**/
+  flex: 1;
+  width: 250px;
+  margin-left: 20px;
+  padding: 0px;
 }
 
 ul{
