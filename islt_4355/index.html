@@ -8,58 +8,73 @@ Use: Home Page - first look in portfolio
 Author:Alexandra Newman
 School/Term:MU/Spring 2023
 Developed: Updated March 23, 2023
-Tested: March 5, 2023, Passed on Safari and Chrome browsers
+Tested: March 23, 2023, Passed on Safari and Chrome browsers
 -->
 
                <meta charset="utf-8">
-               <meta name="viewport" content="width=device-width, initial-scale=1.0">
                <title>Home Page</title>
+               <link href="ham-menu.css" rel="stylesheet">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
                <link rel="stylesheet" href="style.css">
                <link rel="stylesheet" href="nav.css">
   
 </head>
 
 <body>
-<!--************* NAVIGATION *************-->
-<nav>
-<div class="logo">
-  <a href="index.html"><img src="logo.jpg" alt="logo" width="70" height="70"></a>
-</div>
-      <ul class="menu">
-        <li class="item"><a href="index.html">HOME</a></li>
-        <li class="item"><a href="about.html">ABOUT</a></li>
-        <li class="item"><a href="projects.html">PROJECTS</a>
-          <ul class="submenu">
-            <li class="subitem"><a href="#link1">Link 1</a></li>
-            <li class="subitem"><a href="#link2">Link 2</a></li>
-            <li class="subitem"><a href="#link3">Link 3</a></li>
-          </ul>
-        </li>
-        <li class="item"><a href="reflection.html">REFLECTION</a></li>
-        <li class="item"><a href="#contact.html">CONTACT</a></li>
 
-        <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
-      </ul>  
-
-</nav>
+    <!--************* NAVIGATION *************-->
+    <nav id="hamnav">
+      <!--Hamburger-->
+      <label for="hamburger">&#9776;</label>
+      <input type="checkbox" id="hamburger"/>
+      <!--Logo-->
+      <div class="logo">
+        <a href="index.html"><img src="logo.jpg" alt="logo" width="70" height="70"></a>
+      </div>
+    <!--Menu items-->
+    <div class="dropdown" id="hamitems">
+        <ul class="menu">
+          <li class="item"><a href="index.html">HOME</a></li>
+          <li class="item"><a href="about.html">ABOUT</a></li>
+          <li class="item"><a href="projects.html">PROJECTS</a>
+              <ul class="submenu">
+                  <li class="subitem"><a href="#link1">Link 1</a></li>
+                  <li class="subitem"><a href="#link2">Link 2</a></li>
+                  <li class="subitem"><a href="#link3">Link 3</a></li>
+              </ul>
+          </li>
+          <li class="item"><a href="reflection.html">REFLECTION</a></li>
+          <li class="item"><a href="#contact.html">CONTACT</a></li>
+          <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+    </div>
+  </nav>
   
 <header></header>
 
+     <!--*Top-bar*-->
+     <div class="top-bar">
+      <p>Masters of Library & Information Science</p>
+      <p>School of Information Science & Learning Technologies</p>
+      <p>University of Missouri - Columbia, Spring 2023</p>
+    </div>
+    
 <main>
+
+        
 <h1>Portfolio of Alexandra Newman</h1>
 <p>Welcome to my portfolio website! My name is Alexandra Newman, I am a Children’s and Youth Services Manager for a public library in Northwest Arkansas. I obtained a BA in Art history from the University of Arkansas in 2021. I am currently my graduate degree at the University of Missouri.</p>
 <p>Here you will find a sum of my work within the School of Information Science & Learning Technologies, along with a culmination of my work history. This website will demonstrate the principles, ethics, and values I have learned, and will list the professional and educational goals that I have maintained throughout my time at the University of Missouri. I am passionate about the role libraries have in society and the potential to impact communities through a public and private sphere. I hope that through this tool you will be able to witness that I am a library professional that believes in the power of literacy and the impact that accessible information has on communities. I am excited to share my love of libraries and expand my skills to teach others. 
     Look around and enjoy learning about me through my portfolio!
-    </p>
+</p>
 </main>
 
-
-<footer> 
-  <p>&copy;Alexandra Newman</p>
-  <p><a href="mailto:aunkpr@umsystem.edu">aunkpr@umsystem.edu</a></p>
-</footer>
-
-</body>
-
-
-</html>
+  <footer> 
+    <p>&copy;Alexandra Newman</p>
+    <p><a href="mailto:aunkpr@umsystem.edu">aunkpr@umsystem.edu</a></p>
+  </footer>
+  
+  </body>
+  
+  
+  </html>

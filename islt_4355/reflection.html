@@ -7,39 +7,47 @@ Title:Portfolio of Alexandra Newman - Reflection Page
 Use: Personal Reflection - based on work experience
 Author:Alexandra Newman
 School/Term:MU/Spring 2023
-Developed: Updated March 5, 2023
-Tested: March 5, 2023, Passed on Safari and Chrome browsers
+Developed: Updated March 23, 2023
+Tested: March 23, 2023, Passed on Safari and Chrome browsers
 -->
 
-               <meta charset="utf-8">
-               <title>Home Page</title>
-               <link rel="stylesheet" href="style.css">
-               <link rel="stylesheet" type="text/css" href="nav.css">
-  
+<meta charset="utf-8">
+<title>Home Page</title>
+<link href="ham-menu.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="nav.css">
+
 </head>
 
 <body>
-  
-<nav>
+
+<!--************* NAVIGATION *************-->
+<nav id="hamnav">
+<!--Hamburger-->
+<label for="hamburger">&#9776;</label>
+<input type="checkbox" id="hamburger"/>
+<!--Logo-->
 <div class="logo">
-  <a href="index.html"><img src="logo.jpg" alt="logo" width="70" height="70"></a>
+<a href="index.html"><img src="logo.jpg" alt="logo" width="70" height="70"></a>
 </div>
-
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="projects.html">PROJECTS</a>
-          <ul>
-            <li><a href="#link1">Link 1</a></li>
-            <li><a href="#link2">Link 2</a></li>
-            <li><a href="#link3">Link 3</a></li>
-          </ul>
-        </li>
-        <li><a href="reflection.html">REFLECTION</a></li>
-        <li><a href="#contact.html">CONTACT</a></li>
-      </ul>  
-
-
+<!--Menu items-->
+<div class="dropdown" id="hamitems">
+<ul class="menu">
+<li class="item"><a href="index.html">HOME</a></li>
+<li class="item"><a href="about.html">ABOUT</a></li>
+<li class="item"><a href="projects.html">PROJECTS</a>
+<ul class="submenu">
+   <li class="subitem"><a href="#link1">Link 1</a></li>
+   <li class="subitem"><a href="#link2">Link 2</a></li>
+   <li class="subitem"><a href="#link3">Link 3</a></li>
+</ul>
+</li>
+<li class="item"><a href="reflection.html">REFLECTION</a></li>
+<li class="item"><a href="#contact.html">CONTACT</a></li>
+<li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+</ul>
+</div>
 </nav>
   
 <header></header>
