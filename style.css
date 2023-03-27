@@ -1,0 +1,373 @@
+/* Style rules for the header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-family: sans-serif, arial;
+  }
+
+/* Style rules for the main content */
+/*Top-bar*/
+
+.top-bar {
+    color: white;
+    text-align: center;
+    padding: 2rem 2rem;
+    top: 0;
+    background-image: url('HomeTop.png');
+    background-repeat: repeat;
+  }
+
+/*Main*/
+main {
+max-width: 1200px;
+margin: 0 auto;
+padding: 40px;
+font-family: sans-serif, arial;
+}
+
+h1 {
+font-size: 2rem;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+p {
+font-size: 1rem;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+
+/************** Footer styles ***************/
+
+footer {
+background-color:#87a295;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+
+footer p {
+margin-bottom: 10px;
+font-family: sans-serif, arial;
+font-size: 1.2rem;
+}
+
+footer a {
+color: #fff;
+}
+
+/********************* HOME PAGE / INDEX *****************/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex-basis: 48%;
+  }
+
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+/********************* ABOUT ********************/
+
+div.resume {
+    width: 200px;
+    border: 10px solid #87a295;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #cc9999;
+    color: #336666;
+}
+
+div.resume a{
+    color: white;
+    text-decoration: none;
+}
+
+div.resume :hover {
+    opacity: 75%;
+    color: #336666;
+}
+
+blockquote{
+    margin:10px;
+    padding: 10px;
+    line-height: 2;
+    font-style: italic;
+}
+
+
+/********************* GRID ABOUT PAGE ********************/
+.parent {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .div1 {
+    margin: 20px;
+    padding: 10px;
+    border: 20px;
+    flex-basis: 25%;
+  }
+  
+  .div2 {
+    margin: 20px;
+    padding: 20px;
+    border: 20px;
+    flex-basis: 75%;
+  }
+  
+  .parent2 {
+      display: flex;
+      justify-content: space-between;
+
+
+  }
+  
+  .div3 {
+      flex-basis: 50%;
+  }
+  
+  .div4 {
+      flex-basis: 50%;
+  }
+  
+  .resume {
+    margin: 20px;
+  }
+
+  
+  
+/********************* PROJECTS ********************/
+section h2 {
+    margin-bottom: 1rem;
+    color:#749284;
+  }
+.projectLinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .linkList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .linkList li {
+    margin: 10px;
+  }
+  
+  .linkList a {
+    display: block;
+    padding: 12px 24px;
+    background-color:#87a295;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+
+  #project-container {
+    position: relative;
+  }
+  #project-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+  }
+  #project-container:hover #project-dropdown {
+    display: block;
+  }
+
+
+/********************** REFLECTIONS *************************/
+
+div.reflections {
+    box-sizing: border-box;
+
+}
+div.reflections section:first-of-type p:first-of-type::first-letter {
+    font-size: 2em;
+    color: #cc9999;
+    text-align: left;
+    text-indent: 1px;
+}
+div.reflections p {
+    text-indent: 2em;
+}
+
+div.reflections .no-indent {
+    text-indent: 0;
+}
+
+
+/**************** Media queries for mobile devices *****************/
+@media only screen and (max-width: 767px) {
+
+
+/* Style rules for the header */
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        font-family: sans-serif, arial;
+      }
+  
+/* Style rules for the main content */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: sans-serif, arial;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+/* Footer styles */
+  
+  footer {
+    padding: 5%;
+  }
+  
+/* Style rules for the navigation menu */
+    nav {
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            background-color: #87a295;
+            box-shadow: 0 0 10px #749284;
+          }
+
+
+    .logo {
+        margin-bottom: 20px;
+        display: none;
+    
+      }
+   
+    .menu {
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+  
+    .menu li {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .menu a {
+      display: block;
+      padding: 10px;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    .toggle {
+      display: none;
+    }
+  
+    .submenu {
+      display: none;
+    }
+  
+    .menu li:hover .submenu {
+      display: block;
+      position: static;
+      height: auto;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .menu .subitem {
+      width: 100%;
+    }
+  
+    .menu .subitem a {
+      padding: 10px;
+      font-size: 1rem;
+    }
+
+/************ Home Page / Index **********/
+  .container {
+    flex-direction: column;
+  }
+  .column {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+/************ About **********/
+.parent {
+    flex-direction:column;
+}
+
+.div1 .div2 {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.parent2 {
+    flex-direction: column;
+  }
+  .div3 .div4 {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+
+/************** PROJECTS ******************/
+.linkList {
+    display: block;
+    text-align: center;
+  }
+  
+  .linkList li {
+    width: 100%;
+  }
+  
+  a[href^="#"] {
+    scroll-behavior: smooth;
+  }
+}
