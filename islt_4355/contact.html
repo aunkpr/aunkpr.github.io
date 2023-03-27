@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<!--
+Title:Portfolio of Alexandra Newman - Home Page
+Use: Home Page - first look in portfolio
+Author:Alexandra Newman
+School/Term:MU/Spring 2023
+Developed: Updated March 23, 2023
+Tested: March 23, 2023, Passed on Safari and Chrome browsers
+-->
+
+               <meta charset="utf-8">
+               <title>Home Page</title>
+               <link href="ham-menu.css" rel="stylesheet">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <link rel="stylesheet" href="style.css">
+               <link rel="stylesheet" href="nav.css">
+               <link rel="shortcut icon" type="image/x-icon" href="anLogo.png">
+  
+</head>
+
+<body>
+
+    <!--************* NAVIGATION *************-->
+    <nav id="hamnav">
+      <!--Hamburger-->
+      <label for="hamburger">&#9776;</label>
+      <input type="checkbox" id="hamburger"/>
+      <!--Logo-->
+      <div class="logo">
+        <a href="index.html"><img src="logo.jpg" alt="logo" width="70" height="70"></a>
+      </div>
+    <!--Menu items-->
+    <div class="dropdown" id="hamitems">
+        <ul class="menu">
+          <li class="item"><a href="index.html">HOME</a></li>
+          <li class="item"><a href="about.html">ABOUT</a></li>
+          <li class="item"><a href="projects.html">PROJECTS</a>
+              <ul class="submenu">
+                  <li class="subitem"><a href="#link1">Project Management</a></li>
+                  <li class="subitem"><a href="#link2">Collection Development</a></li>
+                  <li class="subitem"><a href="#link3">Leadership Advocacy</a></li>
+              </ul>
+          </li>
+          <li class="item"><a href="reflection.html">REFLECTION</a></li>
+          <li class="item"><a href="contact.html">CONTACT</a></li>
+          <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+  
+<header></header>
+
+<main>
+    <div class="container">
+        <div class="content">
+		<h1>Contact</h1>
+        <P>Alexandra Newman <br> aunkpr@umsystems.edu <br> 000-000-0000</P>
+		</div>
+        <form action="submit-form.php" method="POST">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+    <a href="#top" class="scroll-top-button">Back to top</a>
+</main>
+
+<footer> 
+    <p>&copy;Alexandra Newman</p>
+    <p><a href="mailto:aunkpr@umsystem.edu">aunkpr@umsystem.edu</a></p>
+  </footer>
+  
+  </body>
+  
+  
+  </html>
