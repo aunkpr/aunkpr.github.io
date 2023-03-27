@@ -202,7 +202,15 @@ section h2 {
     display: block;
   }
 
-
+  .imageWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .responsive-image1 {
+    max-width: 30%;
+    height: auto;
+  }
 /********************** REFLECTIONS *************************/
 
 div.reflections {
@@ -369,5 +377,15 @@ main {
   
   a[href^="#"] {
     scroll-behavior: smooth;
+  }
+  .imageWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .responsive-image1 {
+    max-width: 100%;
+    margin-bottom: 10px;
   }
 }
