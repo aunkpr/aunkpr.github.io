@@ -205,12 +205,21 @@ section h2 {
   .imageWrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   
   .responsive-image1 {
-    max-width: 30%;
-    height: auto;
+    width: 30%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
   }
+
+  .responsive-image1:hover {
+    transform: scale(1.05);
+  }
+  
 /********************** REFLECTIONS *************************/
 
 div.reflections {
@@ -230,7 +239,25 @@ div.reflections p {
 div.reflections .no-indent {
     text-indent: 0;
 }
+/*************** BACK TO TOP BUTTON ****************/
+.scroll-top-button {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background-color:#fff;
+  text-decoration: none;
+  color:#87a295;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  font-size: 16px;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 80;
+}
 
+.scroll-top-button:hover {
+  background-color:#ccc;
+}
 
 /**************** Media queries for mobile devices *****************/
 @media only screen and (max-width: 767px) {
@@ -382,10 +409,26 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
 
   .responsive-image1 {
-    max-width: 100%;
+    width: 100%;
     margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   }
+
+  .responsive-image1:hover {
+    transform: scale(1.05);
+  }
+/**** BACK TO TOP BUTTON****/
+.scroll-top-button {
+  display:block;
+}
+@media (min-width: 768px) {
+  .scroll-top-button.visible {
+    opacity: 1;
+}
+}
 }
