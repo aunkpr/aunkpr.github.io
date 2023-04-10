@@ -56,7 +56,6 @@ padding: 20px;
 footer p {
 margin-bottom: 10px;
 font-family: sans-serif, arial;
-font-size: 1.2rem;
 }
 
 footer a {
@@ -209,18 +208,30 @@ section h2 {
     align-items: center;
   }
   
+
   .responsive-image1 {
-    width: 30%;
+  width:30%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease-in-out;
   }
 
+  .responsive-image2 {
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    align-items:baseline;
+    }
+
   .responsive-image1:hover {
     transform: scale(1.05);
   }
-  
+  .responsive-image2:hover {
+    transform: scale(1.05);
+  }
 /********************** REFLECTIONS *************************/
 
 div.reflections {
@@ -468,6 +479,12 @@ main {
   }
 
   .responsive-image1 {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  .responsive-image2 {
     width: 100%;
     margin-bottom: 10px;
     border-radius: 8px;
