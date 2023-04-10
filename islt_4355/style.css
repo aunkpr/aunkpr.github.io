@@ -108,6 +108,11 @@ blockquote{
     font-style: italic;
 }
 
+.about_video video {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
 
 /********************* GRID ABOUT PAGE ********************/
 .parent {
@@ -457,7 +462,18 @@ main {
     margin-bottom: 20px;
   }
 
+.about_video video {
+    width: 60%;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 20%;
+  }
 
+.about_video {
+    clear: both;
+  }
+
+  
 /************** PROJECTS ******************/
 .linkList {
     display: block;
