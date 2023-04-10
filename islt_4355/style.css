@@ -29,6 +29,7 @@ max-width: 1200px;
 margin: 0 auto;
 padding: 40px;
 font-family: sans-serif, arial;
+color: rgb(123, 123, 123);
 }
 
 h1 {
@@ -226,19 +227,7 @@ div.reflections {
     box-sizing: border-box;
 
 }
-div.reflections section:first-of-type p:first-of-type::first-letter {
-    font-size: 2em;
-    color: #cc9999;
-    text-align: left;
-    text-indent: 1px;
-}
-div.reflections p {
-    text-indent: 2em;
-}
 
-div.reflections .no-indent {
-    text-indent: 0;
-}
 /*************** CONTACT ******************/
 
 
