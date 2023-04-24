@@ -1,6 +1,6 @@
-*{
+* {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 nav {
@@ -9,21 +9,22 @@ nav {
   width: 100%;
   display: flex;
   text-decoration: none;
-  font-family: 'arial', sans-serif;
+  font-family: "arial", sans-serif;
   background-color: #87a295;
   justify-content: flex-end;
   box-shadow: 0 0 10px #749284;
   z-index: 1; /* Add a z-index to ensure the navigation stays on top */
 }
 
-.logo {  /**Left Logo**/
+.logo {
+  /**Left Logo**/
   flex: 1;
   width: 250px;
   margin-left: 20px;
   padding: 0px;
 }
 
-ul{
+ul {
   display: flex;
   list-style-type: none;
   padding: 0px;
@@ -46,8 +47,8 @@ nav ul li ul {
   position: absolute;
   background-color: #87a295;
 }
-nav ul li ul a{
-text-align:center;
+nav ul li ul a {
+  text-align: center;
 }
 
 li a:hover {
@@ -59,71 +60,67 @@ nav ul li:hover ul {
   display: flex;
 }
 nav ul li ul li a:hover {
-  background-color:  #a4b8ae;
+  background-color: #a4b8ae;
 }
-
 
 /**************** Media queries for mobile devices *****************/
-@media only screen and (max-width: 767px) 
-{
-/* Style rules for the navigation menu */
-nav {
-  display: flex;
-  justify-content: right;
-  height: 100%;
-  background-color: #87a295;
-  box-shadow: 0 0 10px #749284;
-}
+@media only screen and (max-width: 767px) {
+  /* Style rules for the navigation menu */
+  nav {
+    display: flex;
+    justify-content: right;
+    height: 100%;
+    background-color: #87a295;
+    box-shadow: 0 0 10px #749284;
+  }
 
+  .logo {
+    margin-bottom: 20px;
+    display: none;
+  }
 
-.logo {
-margin-bottom: 20px;
-display: none;
+  .menu {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
 
-}
+  .menu li {
+    width: 100%;
+    margin: 0;
+  }
 
-.menu {
-flex-direction: column;
-margin: 0;
-padding: 0;
-width: 100%;
-}
+  .menu a {
+    display: block;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
 
-.menu li {
-width: 100%;
-margin: 0;
-}
+  .toggle {
+    display: none;
+  }
 
-.menu a {
-display: block;
-padding: 10px;
-font-size: 1.2rem;
-text-align: center;
-}
+  .submenu {
+    display: none;
+  }
 
-.toggle {
-display: none;
-}
+  .menu li:hover .submenu {
+    display: block;
+    position: static;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 
-.submenu {
-display: none;
-}
+  .menu .subitem {
+    width: 100%;
+  }
 
-.menu li:hover .submenu {
-display: block;
-position: static;
-height: auto;
-width: 100%;
-margin: 0;
-padding: 0;
-}
-
-.menu .subitem {
-width: 100%;
-}
-
-.menu .subitem a {
-padding: 10px;
-font-size: 1rem;
-}
+  .menu .subitem a {
+    padding: 10px;
+    font-size: 1rem;
+  }
 }
